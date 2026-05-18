@@ -14,7 +14,12 @@ Below is the official submission package for **Team Atomberg Portal**. Our solut
 ### 2. Source Code Repository
 * 🐙 **GitHub Repository Link**: **[https://github.com/RISHAV-WEB-AI/atomberg-goal-portal](https://github.com/RISHAV-WEB-AI/atomberg-goal-portal)**
 
-### 3. Sandbox Credentials & Identity Switching
+### 3. Visual System Architecture Diagram
+Our application uses a modern **Client-Side Serverless Architecture** that runs entirely within the web browser. The system state is managed by a centralized React controller and synchronized in real time with a structured local database.
+
+![System Architecture Diagram](file:///C:/Users/HP/.gemini/antigravity/brain/1cf6bce5-31de-417a-a87a-9e5d07e9c943/architecture_diagram_1779088869185.png)
+
+### 4. Sandbox Credentials & Identity Switching
 The application includes a **Quick-Role Switcher Sandbox** (floating console button at the bottom-right of the viewport, or sidebar presets) allowing judges to jump instantly between corporate identities:
 
 | Name | Role / Persona | Email | Pre-loaded Workflows to Show |
@@ -62,34 +67,3 @@ We implemented multiple premium bonus features to show high engineering capabili
 * **Status**: **Optimized for Infinite Scalability at Zero Cost**
 * **Architecture Choice**: By implementing a structured client-side relational database using `localStorage`, the site runs completely in-browser.
 * **Hosting Cost**: **$0.00**! It can be hosted on free services (Netlify/Vercel) without any database or API server monthly fees, supporting infinite concurrent users with lightning-fast load times.
-
----
-
-## 📄 Submission Email Template (Copy-Paste)
-
-Copy the text below to submit your project to the judges:
-
-```text
-Subject: Hackathon Submission - Atomberg Goal Setting & Tracking Portal - Rishav
-
-Dear Panel of Judges,
-
-We are thrilled to present our submission for the Atomberg Goal Portal: The Atomberg In-House Goal Setting & Tracking Portal. 
-
-Our solution is a premium, glassmorphic web application built as a React Single-Page Application (SPA) with a serverless, self-healing client-side database. It implements 100% of the Phase 1 & Phase 2 BRD requirements and offers complete mock integrations for Outlook, MS Teams, time-travel, and HR governance.
-
-Submission Details:
-1. Live Demo URL: https://atomberg-portal.netlify.app/
-2. GitHub Repository: https://github.com/RISHAV-WEB-AI/atomberg-goal-portal
-3. Architecture Blueprint: Attached/Embedded in our repository's README.md
-4. Test Account Credentials: You do not need to register! Our landing page features automated Azure AD SSO Presets. Simply switch between roles using our Sandbox Switcher Drawer at the bottom-right of the screen:
-   - Vikram Malhotra (HR Admin) - admin@atomberg.com
-   - Rajesh Iyer (L1 Manager) - manager@atomberg.com
-   - Ananya Sen (Employee 1) - employee@atomberg.com
-   - Kabir Mehta (Employee 2) - kabir@atomberg.com
-
-We look forward to your feedback!
-
-Warm regards,
-Rishav
-```
